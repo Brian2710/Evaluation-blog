@@ -1,95 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71de50d4-5faa-4ecd-930c-773cf635133b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Eval Final.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annexe/blogdatabase.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/.env.test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/bin/console" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/bin/phpunit" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/composer.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/bootstrap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/bundles.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/cache.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/debug.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/doctrine_migrations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/easy_admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/prod/doctrine.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/prod/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/security.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/sensio_framework_extra.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/test/framework.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/test/monolog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/test/routing.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/test/swiftmailer.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/test/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/translation.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/twig_extensions.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/packages/validator.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/routes.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/routes/annotations.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/routes/dev/twig.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/routes/dev/web_profiler.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/routes/easy_admin.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/config/services.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/phpunit.xml.dist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/public/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Controller/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Controller/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/DataFixtures/ArticleFixtures.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Entity/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Entity/Article.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Entity/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Entity/Comment.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Form/ArticleType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Form/CommentType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Form/RegistrationType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Kernel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Migrations/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Migrations/Version20190401175052.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Migrations/Version20190402091629.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Migrations/Version20190402093049.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Migrations/Version20190402140334.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Repository/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Repository/ArticleRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Repository/CategoryRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Repository/CommentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/symfony.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/base.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/blog/create.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/blog/home.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/blog/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/blog/show.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/security/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/security/login.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/templates/security/registration.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/tests/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/website-skeleton/translations/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="71de50d4-5faa-4ecd-930c-773cf635133b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -286,6 +198,11 @@
             <path>
               <item name="Eval Final" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eval Final" type="462c0819:PsiDirectoryNode" />
+              <item name="annexe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Eval Final" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Eval Final" type="462c0819:PsiDirectoryNode" />
               <item name="website-skeleton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -347,12 +264,20 @@
       <workItem from="1554643502913" duration="8625000" />
       <workItem from="1554708097000" duration="261000" />
       <workItem from="1554711400440" duration="3386000" />
-      <workItem from="1554728798726" duration="6759000" />
+      <workItem from="1554728798726" duration="7713000" />
     </task>
+    <task id="LOCAL-00001" summary="Evaluation blog">
+      <created>1554797671395</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554797671395</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113694000" />
+    <option name="totallyTimeSpent" value="114648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="680" y="0" width="926" height="867" extended-state="0" />
@@ -408,6 +333,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Evaluation blog" />
     <option name="LAST_COMMIT_MESSAGE" value="Evaluation blog" />
   </component>
