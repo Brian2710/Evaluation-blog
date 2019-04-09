@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71de50d4-5faa-4ecd-930c-773cf635133b" name="Default Changelist" comment="" />
+    <list default="true" id="71de50d4-5faa-4ecd-930c-773cf635133b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,12 +200,13 @@
             <path>
               <item name="Eval Final" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eval Final" type="462c0819:PsiDirectoryNode" />
-              <item name="annexe" type="462c0819:PsiDirectoryNode" />
+              <item name="website-skeleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Eval Final" type="b2602c69:ProjectViewProjectNode" />
               <item name="Eval Final" type="462c0819:PsiDirectoryNode" />
               <item name="website-skeleton" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +220,7 @@
     <property name="MANAGE_IGNORE_FILES_PROPERTY" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/annexe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
@@ -264,7 +267,7 @@
       <workItem from="1554643502913" duration="8625000" />
       <workItem from="1554708097000" duration="261000" />
       <workItem from="1554711400440" duration="3386000" />
-      <workItem from="1554728798726" duration="7713000" />
+      <workItem from="1554728798726" duration="8953000" />
     </task>
     <task id="LOCAL-00001" summary="Evaluation blog">
       <created>1554797671395</created>
@@ -273,11 +276,25 @@
       <option name="project" value="LOCAL" />
       <updated>1554797671395</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Evaluation blog">
+      <created>1554798702072</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554798702072</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Evaluation blog">
+      <created>1554798794878</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554798794878</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114648000" />
+    <option name="totallyTimeSpent" value="115888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="680" y="0" width="926" height="867" extended-state="0" />
@@ -601,6 +618,16 @@
           <SelectedNodes />
           <Categories />
           <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-skeleton/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
         </state>
       </provider>
     </entry>
