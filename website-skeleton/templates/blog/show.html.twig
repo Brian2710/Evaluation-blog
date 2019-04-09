@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <article>
+        <h2>{{ article.title }}</h2>
+        <div class="metadata">Ecrit le {{ article.createdAt | date('d/m/Y') }} à {{ article.createdAt | date('H:i')}} dans la catégorie {{ article.category.title }}</div>
+        <div class="content">
+            <img src="{{ article.image }}" alt="image de l'article">
+            {{ article.content | raw }}
+            <a href="{{ path('blog') }}" class="btn btn-primary">Lire un autre Article</a>
+        </div>
+    </article>
+    <section id="commentaires">
+        <h2>{{ article.comments | length }} commentaires à propos de l'article</h2>
+        {%  for comment in article.comments %}
+        <div class="comment">
+            <div class="row">
+
+                <div class="col-3">
+                    {{ comment.author }}
+                   <p><small>posté le: {{ comment.createdAt | date ('d/m/Y à H:i')}}</small></p>
+                </div>
+                <div class="col">
+                    {{ comment.content | raw }}
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+
+        {% if app.user %}
+        {{ form_start(commentForm) }}
+        {{ form_row(commentForm.author, {'attr':{'placeholder': "votre pseudo"}}) }}
+        {{ form_row(commentForm.content, {'attr':{'placeholder':"votre commentaire"}}) }}
+        <button type="submit" class="btn btn-success">Poster votre commentaire !</button>
+        {{ form_end(commentForm) }}
+        {% else %}
+            <h2>Pour laisser un commentaire connectez-vous</h2>
+        {% endif %}
+    </section>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+easy_admin:
+    entities:
+        Article:
+            class: App\Entity\Article
+        Category:
+            class: App\Entity\Category
+        Comment:
+            class: App\Entity\Comment
+        user:
+            class: App\Entity\User
+
